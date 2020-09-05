@@ -1,0 +1,4 @@
+tooltip: "%a, %b %e, %Y, %T"
+post:
+  long: "%b %e, %Y"
+  short: "%b %e"

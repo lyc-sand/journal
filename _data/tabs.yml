@@ -1,0 +1,23 @@
+-
+  name: Accueil
+  icon: "fas fa-home"
+-
+  name: Catégories
+  icon: "fas fa-stream"
+  path: journal
+  url: categories
+-
+  name: "Tags"
+  icon: "fas fa-tags"
+  path: journal
+  url: tags
+-
+  name: "Archives"
+  path: journal
+  url: archives
+  icon: "fas fa-archive"
+-
+  name: "À Propos"
+  icon: "fas fa-info"
+  path: journal
+  url: about

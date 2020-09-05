@@ -1,0 +1,201 @@
+---
+layout: page
+title: "404: Page not found"
+permalink: /404.html
+
+redirect_from:  # part of site.sitemap_exclude
+  - /norobots/
+  - /assets/
+  - /tabs/
+  - /categories/
+  - /tags/
+  - /posts/
+
+dynamic_title: true
+---
+
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Arvo);
+
+
+          /* SELECTED TEXT */
+          ::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+          ::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+
+          html, input { font-family: "arvo", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+
+
+          body {
+              background: #4A575A;
+              margin: auto;
+              color: #fff;
+              }
+
+
+          a {
+          	-webkit-transition: all 200ms ease;
+          	-moz-transition: all 200ms ease;
+          	-ms-transition: all 200ms ease;
+          	-o-transition: all 200ms ease;
+          	transition: all 200ms ease;
+
+          	-webkit-transform: translate3d(0, 0, 0);
+          	-webkit-backface-visibility: hidden;
+
+          	opacity: 1;
+          	}
+
+              a:hover {
+          	    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+          	    filter: alpha(opacity=50); /* IE7 */
+          	    opacity: 0.6;
+                  }
+
+                  a, a:visited, a:active {
+                      color: #fff;
+                      text-decoration: none;
+                      }
+
+              .unicorn {
+                  max-width: 100%;
+                  height: 400px;
+                  margin: 20px 0 0 26px;
+                  }
+
+              .container {
+                  max-width: 400px;
+                  _width: 400px;
+                  margin: 0 auto 80px;
+                  text-align: center;
+                  }
+
+              h1 {
+                  margin: 0;
+                  }
+
+              h2 {
+                  font-size: 16px;font-size: 1rem;
+                  font-weight: 400;
+                  margin: 0;
+                  padding: 4px 0 10px;
+                  color: #aaa;
+                  }
+
+              h3 {
+                  margin: 20px 0 8px;
+                  text-align: center;
+                  font-size: 20px;
+                  font-weight: 500;
+                  line-height: 1.4;
+                  padding: 0 30px;
+                  }
+
+              .warning {
+                  margin: 0px 0 30px 0;
+                  padding: 0px 20px 8px;
+                  }
+                  .warning p {
+                      font-size: 12px;font-size: 0.75rem;
+                  }
+
+                  .warning a {
+                      display: block;
+                      margin-top: 30px;
+                      padding: 20px;
+                      background: #16A085;
+                      }
+
+              /* SVG */
+              .unicorn {
+                max-width: 100%;
+                height: 400px;
+
+                background: url({{site.url}}/assets/img/origami.svg) no-repeat center center;
+              }
+
+          .four-oh-four {
+              max-width: 150px;
+              height: 120px;
+              text-indent: -9999px;
+              margin: auto;
+
+              background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTYuNjY4IDk1LjY2MSIgPgo8Zz4KCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik00OS40NjMgOC4yMmwtMjYuMDkgNDYuOTY0SDYyLjc1djM3LjVoLTEyLjV2LTI1SDIuMTI3bDM2LjQxLTY1LjUzNkw0OS40NjMgOC4yMnogTTEzMS41IDQ4LjkgYzAgMTcuMjYxLTEzLjk4OSAzMS4yNS0zMS4yNSAzMS4yNWMtMTcuMjYyIDAtMzEuMjUtMTMuOTktMzEuMjUtMzEuMjVjMC0xNy4yNTggMTMuOTg5LTMxLjI1IDMxLjI1LTMxLjI1IEMxMTcuNTExIDE3LjcgMTMxLjUgMzEuNyAxMzEuNSA0OC45MzR6IE0xMTkgNDguOTMzYzAtMTAuMzQtOC40MS0xOC43NS0xOC43NS0xOC43NWMtMTAuMzQgMC0xOC43NTEgOC40MS0xOC43NTEgMTguOCBjMCAxMC4zIDguNCAxOC44IDE4LjggMTguNzUxQzExMC41OSA2Ny43IDExOSA1OS4zIDExOSA0OC45MzN6IE0xNTQuNjIgNTUuMTg0SDE5NHYzNy41aC0xMi41di0yNWgtNDguMTIxIGwzNi40MDgtNjUuNTM2bDEwLjkyNiA2LjA3MkwxNTQuNjIgNTUuMTg0eiIvPgo8L2c+Cjwvc3ZnPg==) no-repeat center center;
+              }
+
+
+
+
+  /* Responsive
+  -------------------------------------------------------*/
+
+          /* Desktop only */
+          @media only screen and (min-width : 1800px) {
+              h2 {
+                  font-size: 28px;font-size: 1.75rem;
+
+                  }
+              .warning p {
+                  font-size: 14px;font-size: 0.88rem;
+                  }
+              .unicorn {
+                max-width: 100%;
+                height: 400px;
+                margin: 60px 0 0 26px;
+                }
+          }
+
+          @media only screen and (max-width : 568px) {
+              .warning a {
+                background: #037c63;
+                }
+              h2 {
+                color: #fff;
+                }
+          }
+
+          @media only screen and (max-width : 460px) {
+
+              .unicorn {
+                height: 150px;
+                margin: 20px 0 0 0px !important;
+                }
+              .four-oh-four {
+                height:40px;
+                margin: 10px auto 10px;
+                }
+              h2 {
+                font-size: 0.88rem;
+                font-weight: bold;
+                }
+              .warning {
+                margin: 0;
+                }
+              .warning p {
+                margin-top: 10px;
+                font-size: 0.63rem;
+                }
+              .warning a {
+                margin-top: 20px;
+                font-size: 0.63rem;
+                }
+                .footer-right {
+                  display: none;
+                }
+
+          }
+</style>
+<div id="kidsnetwork-main">
+<div class="unicorn"></div>
+
+<div class="container">
+
+    <div class="four-oh-four"><h1>404 Error</h1></div>
+
+    <div class="warning">
+        <h2>"Vous êtes perdus si vous oubliez que les fruits sont à tous, et que la terre n’est à personne !"</h2>
+        <p>La page que vous recherchez a peut-être été supprimée, son nom a été modifié ou est temporairement indisponible.</p>
+        <a href="javascript:history.back()">Retourner sur le site</a>
+    </div>
+</div><!-- /.container -->
+</div>

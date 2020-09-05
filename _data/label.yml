@@ -1,0 +1,12 @@
+panel:
+  lastmod: "Mise à jour récente"
+  trending_tags: "Tendances :"
+  toc: "Contenu"
+
+post:
+  relate_posts: "Autres Articles"
+  button:
+    next: Suivant
+    previous: Précédent
+
+search_hint: "Rechercher..."
